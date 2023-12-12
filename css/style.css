@@ -58,19 +58,14 @@ a{
 
 .cont{
     width: calc(100vw - 100px);
-    background-color: cadetblue;
+    background-color: #F8F9FA;
     overflow: auto;
 }
 
 
 header{
     height: 200px;
-    background-color: forestgreen;
-}
-
-
-main{
-    background-color: red;
+    background-color: #1B72E8;
 }
 
 
