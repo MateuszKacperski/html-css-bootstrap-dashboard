@@ -1,0 +1,26 @@
+/*  tablet-md (768px)*/
+@media screen and (min-width:768px){
+    header{
+        max-height: 150px;
+    }
+
+}
+
+
+/* desktop-lg (992px)*/
+
+@media screen and (min-width:992px){
+    header{
+        max-height: 100px;
+    }
+
+    .sidebar{
+        flex-basis: 150px;
+    }
+
+    .cont{
+        width: calc(100vw - 150px);
+    }
+    
+
+}
