@@ -1,3 +1,15 @@
+/* mobile-sm (576px)*/
+@media screen and (min-width:576px){
+    .side-text{
+        display: none;
+    }
+    
+
+}
+
+
+
+
 /*  tablet-md (768px)*/
 @media screen and (min-width:768px){
     header{
@@ -22,5 +34,9 @@
         width: calc(100vw - 150px);
     }
     
+    .side-text{
+        display: inline-block;
+        
+    }
 
 }

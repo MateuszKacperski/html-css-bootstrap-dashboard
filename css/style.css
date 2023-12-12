@@ -99,8 +99,8 @@ header{
 }
 
 .side-text{
-    display: none;
     color: white;
+    margin-left: 20px;
 }
 
 
