@@ -5,13 +5,20 @@
     box-sizing: border-box;
 }
 
-
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
 /*layout*/
 
 .nav{
     height: 100px;
-    background-color: aqua;
+    background-color: #FEFEFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .content{
@@ -41,4 +48,23 @@ header{
 
 main{
     background-color: red;
+}
+
+
+/* nav */ 
+
+.logo{
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+}
+
+
+.sherch{
+    width: 50%;
+    height: 40%;
+}
+
+.nav-icon{
+    margin-right:20px;
 }
