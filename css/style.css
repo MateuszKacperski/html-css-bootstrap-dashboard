@@ -154,6 +154,10 @@ header{
     border: 1px solid white;
 }
 
+.offcanvas{
+    --bs-offcanvas-width: 100%;
+}
+
 
 /* main */
 

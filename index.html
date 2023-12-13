@@ -64,8 +64,66 @@
                     <div class="row align-items-start">
                       <div class="col-6 col-md-3 d-flex order-md-3 align-items-center justyfi-content-center mb-2">
                         <p class="text-white m-0 p-0">Nuovo Studente</p>
-                        <button type="button" class="btn bottone"><i class="fa-solid fa-plus" style="color: #ffffff;"></i></button>
-                      </div>
+                        <!--<button type="button" class="btn bottone"><i class="fa-solid fa-plus" style="color: #ffffff;"></i></button> -->
+                        <button class="btn bottone" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus" style="color: #ffffff;"></i></button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                          <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          </div>
+                            <div class="offcanvas-body canvas">
+
+
+
+                              <form>
+                                <div class="mb-3">
+                                  <label for="nameInput" class="form-label">Nome</label>
+                                  <input type="text" class="form-control" id="nameInput" aria-describedby="name">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="surnameInput" class="form-label">Cognome</label>
+                                  <input type="text" class="form-control" id="surnameInput" aria-describedby="surname">
+                                </div>
+                                  <label class="emailInput" for="autoSizingInputGroup">Email</label>
+                                  <div class="input-group">
+                                    <div class="input-group-text">@</div>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="">
+                                  </div>
+                                <div class="mb-3">
+                                  <label for="InputPassword1" class="form-label">Password</label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="Inputaddress" class="form-label">Indirizzo</label>
+                                  <input type="address" class="form-control" id="Inputaddress">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="Inputcity" class="form-label">Città</label>
+                                  <input type="city" class="form-control" id="Inputcity">
+                                </div>
+                                <label for="Inputstate" class="form-label">Stato</label>
+                                <select class="form-select" aria-label="Default select example">
+                                  <option selected>Scegli...</option>
+                                  <option value="1">Italia</option>
+                                  <option value="2">Inghilterra</option>
+                                  <option value="3">Spagna</option>
+                                </select>
+                                <div class="mb-3">
+                                  <label for="Inputcity" class="form-label">Cap</label>
+                                  <input type="city" class="form-control" id="Inputcity">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="Inputphoto" class="form-label">Foto</label>
+                                  <label for="formFile" class="form-label"></label>
+                                  <input class="form-control" type="file" id="formFile">
+                                </div>
+                              </form>
+
+
+                            </div>
+                        </div>
+                       </div>
                       <div class="col-7 col-md-4 order-md-1 col-lg-5 mb-2">
                        <p class="h4">Boolean <span class="badge badges">Piano blaze</span></p> <span class="badge badges">3 app</span><i class="fa-solid fa-angles-right badges-plus" style="color: #ffffff;"></i><span class="badge badges badges-plus">+</span><span class="badge badges badges-none">Boolean mobile app</span><span class="badge badges badges-none">Boolean web app</span><span class="badge badges badges-none">Boolean blog app</span> 
                       </div>
