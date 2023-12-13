@@ -124,6 +124,39 @@ header{
 }
 
 
+/* header */ 
+
+.h4{
+    color:white;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-white-m{
+    margin-bottom: 0;
+}
+
+
+/*badges */ 
+
+.badges{
+    background-color: #165BBA;
+    font-size: 10px;
+    margin: 0 2px;
+}
+
+
+/*bottone */ 
+
+.bottone{
+    border: 1px solid white;
+}
+
+
+/* main */
+
 /* section prime classi */ 
 
 .bottone-bordo{

@@ -12,6 +12,9 @@
         display: none;
     }
 
+    .badges-none{
+        display: none;
+    }
 }
 
 
@@ -59,6 +62,14 @@
 
     .sherch{
       padding-left: 40px;
+    }
+
+    .badges-plus{
+        display: none;
+    }
+
+    .badges-none{
+        display: inline;
     }
  
 }
