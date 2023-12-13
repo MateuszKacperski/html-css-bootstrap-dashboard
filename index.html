@@ -16,14 +16,20 @@
 </head>
 <body>
     <div class="nav">
-       <div class="logo">
-            <img src="img/mobile-logo.png" alt="logo Boolean">
+       <div class="logo d-flex justyfi-content-center align-items-center">
+            <img class="mobile-img" src="img/mobile-logo.png" alt="logo Boolean">
+            <img class="desktop-img" src="img/logo.svg" alt="logo Boolean">
         </div>
         <div class="input-group flex-nowrap sherch">
             <span class="input-group-text nav-mod-icon" id="addon-wrapping"><i class="fa-solid fa-magnifying-glass" style="color: #23272B;"></i></span>
             <input type="text" class="form-control nav-mod-bg" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="addon-wrapping">
           </div>
-        <div class="nav-icon">
+        <div class="nav-icon d-flex justyfi-content-center align-items-center">
+          <div class="icon-desktop">
+            <button class="desktop-i"><i class="fa-solid fa-list-ul" style="color: #23272B;"></i></button>
+            <button class="desktop-i"><i class="fa-solid fa-circle-question" style="color: #23272B;"></i></button>
+            <button class="desktop-i"><i class="fa-solid fa-ellipsis-vertical" style="color: #23272B;"></i></button>
+          </div>
           <div class="dropdown">
              <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                  <i class="fa-solid fa-bell" style="color: #FF8F00;"></i>

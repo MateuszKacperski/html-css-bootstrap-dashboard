@@ -105,6 +105,12 @@ header{
     padding: 6px 0;
 }
 
+.desktop-i{
+    border: 0px solid transparent;
+    background-color: #FCFCFD;
+    padding: 10px;
+}
+
 
 /* sidebar */
 

@@ -4,6 +4,13 @@
         display: none;
     }
     
+    .icon-desktop{
+        display: none;
+    }
+
+    .desktop-img{
+        display: none;
+    }
 
 }
 
@@ -35,4 +42,23 @@
         
     }
 
+    .icon-desktop{
+        display: inline-block;
+    }
+
+    .mobile-img{
+        display: none;
+    }
+
+    .desktop-img{
+        display: inline-block;
+        width:120px;
+        height: 50px;
+        padding-right: 10px;
+    }
+
+    .sherch{
+      padding-left: 40px;
+    }
+ 
 }
