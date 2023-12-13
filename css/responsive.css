@@ -22,10 +22,6 @@
 /* desktop-lg (992px)*/
 
 @media screen and (min-width:992px){
-    header{
-        max-height: 100px;
-    }
-
     .sidebar{
         flex-basis: 150px;
     }

@@ -16,15 +16,25 @@
 </head>
 <body>
     <div class="nav">
-        <div class="logo">
+       <div class="logo">
             <img src="img/mobile-logo.png" alt="logo Boolean">
         </div>
         <div class="input-group flex-nowrap sherch">
-            <span class="input-group-text" id="addon-wrapping">@</span>
-            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+            <span class="input-group-text nav-mod-icon" id="addon-wrapping"><i class="fa-solid fa-magnifying-glass" style="color: #23272B;"></i></span>
+            <input type="text" class="form-control nav-mod-bg" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="addon-wrapping">
           </div>
         <div class="nav-icon">
-            <i class="fa-solid fa-bell" style="color: #FF8F00;"></i>
+          <div class="dropdown">
+             <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 <i class="fa-solid fa-bell" style="color: #FF8F00;"></i>
+               </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item active" href="#">Profilo</a></li>
+                    <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                    <li><a class="dropdown-item" href="#">Logo</a></li>
+                   </ul>
+          </div>
+            
         </div>
     </div>
     <div class="content">
@@ -40,10 +50,11 @@
                 <i class="fa-solid fa-gear fa-lg" style="color: #ffffff;"></i><p class="side-text">Admin</p>
             </div>
         </div>
-        <div class="cont">
+        <div class="cont"> 
+          
             <header>
 
-                <div class="container text-center">
+                <div class="text-center py-5">
                     <div class="row align-items-start">
                       <div class="col-6 col-md-3 d-flex order-md-3">
                         <h4>Nuovo Studente</h4>
@@ -61,10 +72,10 @@
 
             </header>
             <main>
-                <div class="container text-center my-4">
+                <div class="text-center p-4">
                     <div class="row align-items-start">
                       <div class="col-12 col-lg-8">
-                        <div class="card">
+                        <div class="card mb-4">
                             <div class="card-header text-start">
                               <h1>Prossime classi</h1>
                             </div>
@@ -139,7 +150,7 @@
                               </table>
                          
                           </div>
-                          <div class="card my-4">
+                          <div class="card mb-4">
                             <div class="card-header text-start">
                               <h1>F.A.Q.</h1>
                             </div>
@@ -185,7 +196,7 @@
                         
                       </div>
                       <div class="col-12 col-lg-4">
-                        <div class="card">
+                        <div class="card mb-4">
                             <div class="card-header text-start">
                               <h1>Todo</h1>
                             </div>
@@ -205,7 +216,7 @@
                               </ul>
                           </div>
 
-                          <div class="card my-4">
+                          <div class="card mb-4">
                             <img src="img/stats.jpeg" class="card-img-top" alt="stats">
                             <div class="card-body">
                               <h5 class="card-title text-start">Utenti attivi</h5>
